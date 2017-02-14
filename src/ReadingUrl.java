@@ -13,7 +13,7 @@ public class ReadingUrl implements Iterable<String>{
 
     public ReadingUrl(){
         try {
-            File file = new File("C:\\Users\\trzew\\Desktop\\miasta.txt");
+            File file = new File("miasta.txt");
             FileReader fr = new FileReader(file);
             BufferedReader br = new BufferedReader(fr);
             String line;
